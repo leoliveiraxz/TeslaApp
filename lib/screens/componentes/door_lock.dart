@@ -2,9 +2,13 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_svg/svg.dart';
 
-import '../../constraints.dart';class DoorLock extends StatelessWidget {
+import '../../constraints.dart';
+
+class DoorLock extends StatelessWidget {
   const DoorLock({
-    Key? key, required this.press, required this.isLock,
+    Key? key,
+    required this.press,
+    required this.isLock,
   }) : super(key: key);
 
   final VoidCallback press;
